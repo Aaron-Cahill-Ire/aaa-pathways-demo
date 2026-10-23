@@ -38,7 +38,7 @@ The registry in `thinkific-demo/source_registry.json` pins source identities. To
 
 ## Handoff and maintenance
 
-`handoff/` includes the contractor brief, decision brief, PRD and API setup guide. The documents describe the original local prototype; this README documents the added hosted read-only adapter. GitHub repository access must be granted to collaborators before they can clone this private repository. Connected credentials and databases are deliberately excluded; each maintainer configures their own access.
+`handoff/` includes the contractor brief, decision brief, PRD and API setup guide. The documents describe the original local prototype; this README documents the added hosted read-only adapter. This repository is public: anyone can clone or fork it and build on the demo. Connected credentials and databases are deliberately excluded; each maintainer configures their own access.
 
 Run the existing local suite and the hosted adapter suite before deploying:
 
