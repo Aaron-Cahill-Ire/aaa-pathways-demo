@@ -1,12 +1,17 @@
-*
-!api/**
-!scripts/build_hosted.py
-!pathways-v1/*.py
-!pathways-v1/static/**
-!thinkific-demo/*.json
-!web-demo/data/snapshot.json
-!handoff/AAA Dashboard Contractor Handoff.docx
-!handoff/AAA Dashboard Decisions for AAA.docx
-!vercel.json
-!.python-version
-!.gitignore
+.secrets/
+.artifacts/
+.claude/
+.mcp.json
+.git/
+.vercel/
+transcripts/
+document-review/
+claude-tools/
+Animal Advocacy Africa*.md
+CLAUDE.md
+pathways-v1/data/
+pathways-v1/test-results/
+**/__pycache__/
+**/*.pyc
+handoff/*.zip
+dist/
