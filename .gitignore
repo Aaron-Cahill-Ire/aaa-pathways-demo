@@ -1,0 +1,12 @@
+.secrets/
+.artifacts/
+__pycache__/
+*.pyc
+pathways-v1/data/
+pathways-v1/test-results/
+.vercel/
+dist/
+.DS_Store
+.env
+.env.*
+!**/.env.example

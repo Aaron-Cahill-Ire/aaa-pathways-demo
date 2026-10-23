@@ -1,0 +1,48 @@
+{
+  "course_id": 3558004,
+  "assessment_id": "starting-point-demo-v1",
+  "rubric_version": "demo-AA-v1",
+  "identity_policy": "Fixed fictional advocate IDs. Form identity is a claim, never authentication.",
+  "advocates": [
+    {
+      "id": "recUwfcioI2FWLpFW",
+      "demo_id": "AAA-DEMO-001",
+      "name": "DEMO - Amina Sample",
+      "email": "amina@example.test",
+      "thinkific_user_id": 260700368,
+      "thinkific_enrollment_id": 894392343
+    },
+    {
+      "id": "recVQQminr3t4aZ5F",
+      "demo_id": "AAA-DEMO-002",
+      "name": "DEMO - Kwame Sample",
+      "email": "kwame@example.test",
+      "thinkific_user_id": 260700371,
+      "thinkific_enrollment_id": 894392352
+    },
+    {
+      "id": "recdM0005WtVfsvmH",
+      "demo_id": "AAA-DEMO-003",
+      "name": "DEMO - Zola Sample",
+      "email": "zola@example.test"
+    },
+    {
+      "id": "recG5MADiJu2NMli3",
+      "demo_id": "AAA-DEMO-004",
+      "name": "DEMO - Chidi Sample",
+      "email": "chidi@example.test"
+    },
+    {
+      "id": "recPNa2hjW7oYDJVm",
+      "demo_id": "AAA-DEMO-005",
+      "name": "DEMO - Neema Sample",
+      "email": "neema@example.test"
+    },
+    {
+      "id": "recGeNBArbf48utG1",
+      "demo_id": "AAA-DEMO-006",
+      "name": "DEMO - Nuru Sample",
+      "email": "nuru@example.test"
+    }
+  ]
+}

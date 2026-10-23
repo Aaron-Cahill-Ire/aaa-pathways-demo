@@ -1,0 +1,7 @@
+Participant,Demo ID,Email,Country,Stage,Completed lessons,Total lessons,Reflection,Next action,Data provenance,Q1,Q2
+DEMO - Amina Sample,AAA-DEMO-001,amina@example.test,Kenya,Just joined,0,12,Fictional new learner exploring operations work.,Complete the starting-point assessment,Synthetic seed - not a Thinkific export,,
+DEMO - Kwame Sample,AAA-DEMO-002,kwame@example.test,Ghana,Learning,2,12,Fictional learner testing whether research work suits their skills.,Continue values and motivation,Synthetic seed - not a Thinkific export,A,A
+DEMO - Zola Sample,AAA-DEMO-003,zola@example.test,South Africa,Needs follow-up,4,12,Fictional learner who may need help choosing an achievable experiment.,Review support needs - do not send email,Synthetic seed - not a Thinkific export,B,A
+DEMO - Chidi Sample,AAA-DEMO-004,chidi@example.test,Nigeria,Learning,8,12,Fictional learner comparing communication and operations roles.,Run a small career experiment,Synthetic seed - not a Thinkific export,A,B
+DEMO - Neema Sample,AAA-DEMO-005,neema@example.test,Tanzania,Completed,12,12,Fictional completed learner with a 30-day plan to test a volunteer project.,Human review of next-step preferences,Synthetic seed - not a Thinkific export,A,A
+DEMO - Nuru Sample,AAA-DEMO-006,nuru@example.test,Uganda,Learning,6,12,Fictional zero-score case. A quiz result does not determine access or programme eligibility.,Offer a chance to revisit the sample reading,Synthetic seed - not a Thinkific export,B,B

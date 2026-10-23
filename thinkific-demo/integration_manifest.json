@@ -1,0 +1,123 @@
+{
+  "purpose": "Fictional-data Pathways course-to-CRM demonstration",
+  "verified_on": "2026-10-23",
+  "thinkific": {
+    "course_id": 3558004,
+    "course_status": "unpublished",
+    "assessment_lesson_id": 79228405,
+    "native_quiz_id": 4661007,
+    "editor_url": "https://aaron-s-site-8d99.thinkific.com/manage/courses/3558004/chapters/17675335/contents/79228405",
+    "native_quiz_test": "Two correct answers produced 100%, 2/2 in learner preview. This is an admin preview test, not an enrolled fictional learner's stored attempt.",
+    "external_assessment": "Existing private form retained. Explicit dashboard refresh ingests separate attempts and matches fictional identity claims; form ID is not authentication."
+  },
+  "airtable": {
+    "base_id": "appAAuxNKQ0KNGSil",
+    "table_id": "tblwbn6JRl9WeyBjJ",
+    "table_name": "DEMO Pathways Assessments",
+    "table_url": "https://airtable.com/appAAuxNKQ0KNGSil/tblwbn6JRl9WeyBjJ/viwzlwmRFk5qQkPFU",
+    "form_id": "pagk5GhaNoKEmxpLv",
+    "form_url": "https://airtable.com/appAAuxNKQ0KNGSil/pagk5GhaNoKEmxpLv/form",
+    "form_status": "published",
+    "form_access": "Only users with base access; selected radio setting verified in the native Share form dialog",
+    "form_fields": [
+      "Participant",
+      "Demo ID",
+      "Reflection",
+      "Q1",
+      "Q2"
+    ],
+    "required_form_fields": [
+      "Participant",
+      "Demo ID",
+      "Q1",
+      "Q2"
+    ],
+    "score_field": "Demo score out of 2",
+    "score_formula": "IF(AND({Q1}!=\"\",{Q2}!=\"\"),IF({Q1}=\"A\",1,0)+IF({Q2}=\"A\",1,0))",
+    "dashboard_url": "https://airtable.com/appAAuxNKQ0KNGSil/pag9UenVhtLsCF5GV/preview",
+    "dashboard_status": "saved unpublished interface draft; creator preview reads live Airtable records",
+    "dashboard_components": [
+      "Demo record count",
+      "Records by data provenance",
+      "Count by programme stage and data provenance"
+    ],
+    "record_count_at_verification": 12,
+    "assessment_attempts_table": {
+      "id": "tblZ0fe6zb7erPRAz",
+      "name": "DEMO Assessment Attempts",
+      "fields": [
+        "Source key",
+        "Payload JSON"
+      ],
+      "schema": "Immutable envelope stores advocate foreign ID, source record ID, original claimed identifiers/answers, score or null, versions and timestamps."
+    }
+  },
+  "verified_live_test": {
+    "demo_id": "AAA-DEMO-007",
+    "participant": "DEMO - Live form test",
+    "airtable_record_id": "recHVY8bhVp2Ownfv",
+    "record_url": "https://airtable.com/appAAuxNKQ0KNGSil/tblwbn6JRl9WeyBjJ/viwzlwmRFk5qQkPFU/recHVY8bhVp2Ownfv",
+    "steps_verified": [
+      "Followed the saved lesson link from Thinkific learner preview",
+      "Opened the published private Airtable form in the signed-in base collaborator account",
+      "Submitted fictional identifiers, reflection and Q1=A / Q2=B",
+      "Observed the form success confirmation",
+      "Observed the new seventh record in Airtable",
+      "Verified automatic formula score of 1 out of 2",
+      "Observed dashboard count of seven with provenance chart separating six seeds from one verified submission"
+    ],
+    "manual_followup": "After verifying storage, staff-controlled Data provenance, Stage and Next action were set manually. They are not automatically assigned by the form."
+  },
+  "simulated": [
+    "The six imported fictional records in demo_records.json",
+    "Seeded course progress; these numbers were not read from Thinkific",
+    "Seeded participant stages and reflections",
+    "All participant identities, names and example.test addresses"
+  ],
+  "working": [
+    "Existing private Airtable form creates raw submission rows",
+    "Fixed advocate source IDs remain separate from immutable assessment attempts",
+    "Native Nuru submissions retain 0/2 and 2/2 separately",
+    "HTTP submission and replay with changed-payload409 protection",
+    "Unmatched/conflicting claims enter visible review queue",
+    "Two API enrolments and verified0% progress persisted to Airtable/dashboard",
+    "Independent native quiz GraphQL access with honest empty result",
+    "Attempt hydration/recovery from Airtable mirrors"
+  ],
+  "not_connected": [
+    "Actual enrolled-learner lesson activity acceptance: course remains Draft",
+    "Stored native Thinkific quiz attempt acceptance: none returned",
+    "Production learner authentication and verified form identity",
+    "Automatic scheduling and review resolution",
+    "Email and reminder delivery"
+  ],
+  "contractor_next_steps": [
+    "Complete actual learner lesson and stored quiz acceptance only after authorisation of course publication approach",
+    "Implement production authenticated identity and external form access",
+    "Add audited review resolution without overwriting original attempts",
+    "Add scheduling, monitoring, roles, backups/restore and ownership handover",
+    "Retain explicit synthetic/verified provenance and no-email scope"
+  ],
+  "evidence_images": [
+    "/Users/aaroncahill/.codex/visualizations/2026/10/23/01a1688e-0d94-7711-b3e3-db4d5d7f4365/pathways-form-private.png",
+    "/Users/aaroncahill/.codex/visualizations/2026/10/23/01a1688e-0d94-7711-b3e3-db4d5d7f4365/pathways-airtable-dashboard.png"
+  ],
+  "integration_update": {
+    "verified_on": "2026-10-23",
+    "status": "Assessment ingestion verified; Thinkific enrollment percentage sync verified; actual learner activity blocked by Draft status.",
+    "registry": "source_registry.json",
+    "evidence": "live_integration_evidence.json",
+    "preview_url": "http://127.0.0.1:8767",
+    "attempt_table_id": "tblZ0fe6zb7erPRAz",
+    "assessment_attempt_count": 6,
+    "matched_attempt_count": 3,
+    "review_count": 3,
+    "thinkific_enrolled_users": [
+      260700368,
+      260700371
+    ],
+    "native_quiz_access": "GraphQL named query permitted; zero stored fictional-learner submissions returned.",
+    "course_publication": "Draft confirmed in native overview; no publication change.",
+    "airtable_schema_permission": "API HTTP403 for schema write; demo fields/table created through native collaborator UI."
+  }
+}

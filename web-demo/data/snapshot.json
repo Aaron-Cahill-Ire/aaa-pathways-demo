@@ -1,0 +1,790 @@
+{
+  "people": [
+    {
+      "id": "recUwfcioI2FWLpFW",
+      "demo_id": "AAA-DEMO-001",
+      "name": "DEMO - Amina Sample",
+      "email": "amina@example.test",
+      "country": "Kenya",
+      "stage": "Just joined",
+      "completed": null,
+      "total": 12,
+      "percent": 0.0,
+      "score": 1,
+      "q1": "A",
+      "q2": "B",
+      "reflection": "Fictional HTTP integration check for Amina. Repeat delivery must not create another attempt.",
+      "next_action": "Complete the starting-point assessment",
+      "provenance": "Synthetic seed - not a Thinkific export",
+      "created_at": "2026-10-23T11:55:16.000Z",
+      "source": "Airtable",
+      "thinkific": {
+        "demo_id": "AAA-DEMO-001",
+        "advocate_id": "recUwfcioI2FWLpFW",
+        "user_id": 260700368,
+        "course_id": 3558004,
+        "enrollment_id": 894392343,
+        "percentage_completed": 0.0,
+        "percent": 0.0,
+        "completed_at": null,
+        "started_at": null,
+        "updated_at": "2026-10-23T12:51:03.847Z",
+        "checked_at": "2026-10-23T17:06:14+00:00",
+        "source": "Thinkific enrollment API",
+        "lesson_count_available": false,
+        "native_quizzes": {
+          "state": "verified",
+          "checked_at": "2026-10-23T17:06:15+00:00",
+          "submissions": [],
+          "note": "GraphQL access verified. No stored quiz submissions for mapped fictional learners."
+        }
+      },
+      "progress_source": "Verified Thinkific API",
+      "thinkific_stored": "{\"advocate_id\": \"recUwfcioI2FWLpFW\", \"checked_at\": \"2026-10-23T17:06:14+00:00\", \"completed_at\": null, \"course_id\": 3558004, \"demo_id\": \"AAA-DEMO-001\", \"enrollment_id\": 894392343, \"lesson_count_available\": false, \"native_quizzes\": {\"checked_at\": \"2026-10-23T17:06:15+00:00\", \"note\": \"GraphQL access verified. No stored quiz submissions for mapped fictional learners.\", \"state\": \"verified\", \"submissions\": []}, \"percent\": 0.0, \"percentage_completed\": 0.0, \"source\": \"Thinkific enrollment API\", \"started_at\": null, \"updated_at\": \"2026-10-23T12:51:03.847Z\", \"user_id\": 260700368}",
+      "attempts": [
+        {
+          "source_key": "airtable:recx0dOXsa2JY2csj",
+          "payload_hash": "8bc2406056ed53a614ec005b287c592272ff8b40a5d09348a317b67d26c48bd5",
+          "payload": {
+            "assessment_version": "starting-point-demo-v1",
+            "fields": {
+              "Demo ID": "AAA-DEMO-001",
+              "Email": "amina@example.test",
+              "Participant": "DEMO - Amina Sample",
+              "Q1": "A",
+              "Q2": "B",
+              "Reflection": "Fictional HTTP integration check for Amina. Repeat delivery must not create another attempt."
+            },
+            "form_id": "pagk5GhaNoKEmxpLv",
+            "rubric_version": "demo-AA-v1",
+            "source": "airtable-private-form-inbox",
+            "source_record_id": "recx0dOXsa2JY2csj",
+            "submitted_at": "2026-10-23T13:10:12.000Z"
+          },
+          "advocate_id": "recUwfcioI2FWLpFW",
+          "match_state": "matched-demo",
+          "reason": "Fixed fictional ID and exact name agree; submitter identity is not authenticated.",
+          "score": 1,
+          "received_at": "2026-10-23T13:10:17+00:00",
+          "mirrored_id": "recQR8yVIlrtmE1Mn",
+          "mirror_error": null
+        }
+      ],
+      "assessment_source": "Verified Airtable submission; fictional identity claim"
+    },
+    {
+      "id": "recVQQminr3t4aZ5F",
+      "demo_id": "AAA-DEMO-002",
+      "name": "DEMO - Kwame Sample",
+      "email": "kwame@example.test",
+      "country": "Ghana",
+      "stage": "Learning",
+      "completed": null,
+      "total": 12,
+      "percent": 0.0,
+      "score": 2,
+      "q1": "A",
+      "q2": "A",
+      "reflection": "Fictional learner testing whether research work suits their skills.",
+      "next_action": "Continue values and motivation",
+      "provenance": "Synthetic seed - not a Thinkific export",
+      "created_at": "2026-10-23T11:55:16.000Z",
+      "source": "Airtable",
+      "thinkific": {
+        "demo_id": "AAA-DEMO-002",
+        "advocate_id": "recVQQminr3t4aZ5F",
+        "user_id": 260700371,
+        "course_id": 3558004,
+        "enrollment_id": 894392352,
+        "percentage_completed": 0.0,
+        "percent": 0.0,
+        "completed_at": null,
+        "started_at": null,
+        "updated_at": "2026-10-23T12:51:05.235Z",
+        "checked_at": "2026-10-23T17:06:15+00:00",
+        "source": "Thinkific enrollment API",
+        "lesson_count_available": false,
+        "native_quizzes": {
+          "state": "verified",
+          "checked_at": "2026-10-23T17:06:15+00:00",
+          "submissions": [],
+          "note": "GraphQL access verified. No stored quiz submissions for mapped fictional learners."
+        }
+      },
+      "progress_source": "Verified Thinkific API",
+      "thinkific_stored": "{\"advocate_id\": \"recVQQminr3t4aZ5F\", \"checked_at\": \"2026-10-23T17:06:15+00:00\", \"completed_at\": null, \"course_id\": 3558004, \"demo_id\": \"AAA-DEMO-002\", \"enrollment_id\": 894392352, \"lesson_count_available\": false, \"native_quizzes\": {\"checked_at\": \"2026-10-23T17:06:15+00:00\", \"note\": \"GraphQL access verified. No stored quiz submissions for mapped fictional learners.\", \"state\": \"verified\", \"submissions\": []}, \"percent\": 0.0, \"percentage_completed\": 0.0, \"source\": \"Thinkific enrollment API\", \"started_at\": null, \"updated_at\": \"2026-10-23T12:51:05.235Z\", \"user_id\": 260700371}",
+      "attempts": [],
+      "assessment_source": "Synthetic seed"
+    },
+    {
+      "id": "recdM0005WtVfsvmH",
+      "demo_id": "AAA-DEMO-003",
+      "name": "DEMO - Zola Sample",
+      "email": "zola@example.test",
+      "country": "South Africa",
+      "stage": "Needs follow-up",
+      "completed": 4,
+      "total": 12,
+      "percent": 33,
+      "score": 1,
+      "q1": "B",
+      "q2": "A",
+      "reflection": "Fictional learner who may need help choosing an achievable experiment.",
+      "next_action": "Review support needs - do not send email",
+      "provenance": "Synthetic seed - not a Thinkific export",
+      "created_at": "2026-10-23T11:55:16.000Z",
+      "source": "Airtable",
+      "thinkific": null,
+      "progress_source": "Synthetic seed",
+      "thinkific_stored": null,
+      "attempts": [],
+      "assessment_source": "Synthetic seed"
+    },
+    {
+      "id": "recG5MADiJu2NMli3",
+      "demo_id": "AAA-DEMO-004",
+      "name": "DEMO - Chidi Sample",
+      "email": "chidi@example.test",
+      "country": "Nigeria",
+      "stage": "Learning",
+      "completed": 8,
+      "total": 12,
+      "percent": 67,
+      "score": 1,
+      "q1": "A",
+      "q2": "B",
+      "reflection": "Fictional learner comparing communication and operations roles.",
+      "next_action": "Run a small career experiment",
+      "provenance": "Synthetic seed - not a Thinkific export",
+      "created_at": "2026-10-23T11:55:16.000Z",
+      "source": "Airtable",
+      "thinkific": null,
+      "progress_source": "Synthetic seed",
+      "thinkific_stored": null,
+      "attempts": [],
+      "assessment_source": "Synthetic seed"
+    },
+    {
+      "id": "recPNa2hjW7oYDJVm",
+      "demo_id": "AAA-DEMO-005",
+      "name": "DEMO - Neema Sample",
+      "email": "neema@example.test",
+      "country": "Tanzania",
+      "stage": "Completed",
+      "completed": 12,
+      "total": 12,
+      "percent": 100,
+      "score": 2,
+      "q1": "A",
+      "q2": "A",
+      "reflection": "Fictional completed learner with a 30-day plan to test a volunteer project.",
+      "next_action": "Human review of next-step preferences",
+      "provenance": "Synthetic seed - not a Thinkific export",
+      "created_at": "2026-10-23T11:55:16.000Z",
+      "source": "Airtable",
+      "thinkific": null,
+      "progress_source": "Synthetic seed",
+      "thinkific_stored": null,
+      "attempts": [],
+      "assessment_source": "Synthetic seed"
+    },
+    {
+      "id": "recGeNBArbf48utG1",
+      "demo_id": "AAA-DEMO-006",
+      "name": "DEMO - Nuru Sample",
+      "email": "nuru@example.test",
+      "country": "Uganda",
+      "stage": "Learning",
+      "completed": 6,
+      "total": 12,
+      "percent": 50,
+      "score": 2,
+      "q1": "A",
+      "q2": "A",
+      "reflection": "Fictional native-form retake two. I revised my answers after reviewing a small, time-limited career experiment.",
+      "next_action": "Review the latest assessment with staff. Do not send email.",
+      "provenance": "Synthetic seed - not a Thinkific export",
+      "created_at": "2026-10-23T11:55:16.000Z",
+      "source": "Airtable",
+      "thinkific": null,
+      "progress_source": "Synthetic seed",
+      "thinkific_stored": null,
+      "attempts": [
+        {
+          "source_key": "airtable:recLS6sBhB4DosonM",
+          "payload_hash": "6bc2b60f28e0c02189a27f2a4229b22cba1f39ab7b9c953346eeb7d95f5e7efb",
+          "payload": {
+            "assessment_version": "starting-point-demo-v1",
+            "fields": {
+              "Demo ID": "AAA-DEMO-006",
+              "Email": "",
+              "Participant": "DEMO - Nuru Sample",
+              "Q1": "B",
+              "Q2": "B",
+              "Reflection": "Fictional native-form integration attempt one. Review a small career experiment with a human adviser."
+            },
+            "form_id": "pagk5GhaNoKEmxpLv",
+            "rubric_version": "demo-AA-v1",
+            "source": "airtable-private-form-inbox",
+            "source_record_id": "recLS6sBhB4DosonM",
+            "submitted_at": "2026-10-23T13:01:37.000Z"
+          },
+          "advocate_id": "recGeNBArbf48utG1",
+          "match_state": "matched-demo",
+          "reason": "Fixed fictional ID and exact name agree; submitter identity is not authenticated.",
+          "score": 0,
+          "received_at": "2026-10-23T13:02:01+00:00",
+          "mirrored_id": "recmRGHVnlRw8vlUd",
+          "mirror_error": null
+        },
+        {
+          "source_key": "airtable:recMEWxg6HxhxOqAS",
+          "payload_hash": "4a0b311a1bdcf7644d99f5c943187f02cafc95131e258459a8e10b04434732ca",
+          "payload": {
+            "assessment_version": "starting-point-demo-v1",
+            "fields": {
+              "Demo ID": "AAA-DEMO-006",
+              "Email": "",
+              "Participant": "DEMO - Nuru Sample",
+              "Q1": "A",
+              "Q2": "A",
+              "Reflection": "Fictional native-form retake two. I revised my answers after reviewing a small, time-limited career experiment."
+            },
+            "form_id": "pagk5GhaNoKEmxpLv",
+            "rubric_version": "demo-AA-v1",
+            "source": "airtable-private-form-inbox",
+            "source_record_id": "recMEWxg6HxhxOqAS",
+            "submitted_at": "2026-10-23T13:02:39.000Z"
+          },
+          "advocate_id": "recGeNBArbf48utG1",
+          "match_state": "matched-demo",
+          "reason": "Fixed fictional ID and exact name agree; submitter identity is not authenticated.",
+          "score": 2,
+          "received_at": "2026-10-23T13:06:07+00:00",
+          "mirrored_id": "recaPuWFl9k4mtf2F",
+          "mirror_error": null
+        }
+      ],
+      "assessment_source": "Verified Airtable submission; fictional identity claim"
+    }
+  ],
+  "airtable": {
+    "state": "connected",
+    "checked_at": "2026-10-23T17:06:08+00:00",
+    "last_success": "2026-10-23T17:06:11+00:00",
+    "record_count": 6
+  },
+  "thinkific": {
+    "state": "connected",
+    "checked_at": "2026-10-23T17:06:08+00:00",
+    "last_success": "2026-10-23T17:06:18+00:00"
+  },
+  "thinkific_data": {
+    "courses": [
+      {
+        "id": 3558004,
+        "name": "Pathways: Careers to Help Animals in Africa \u2014 Demo",
+        "slug": "pathways-careers-to-help-animals-in-africa-demo",
+        "chapters": [
+          {
+            "id": 17675335,
+            "name": "Week 0: Orientation",
+            "lessons": [
+              {
+                "id": 79228404,
+                "name": "Welcome and How to Use This Course",
+                "type": ""
+              },
+              {
+                "id": 79228405,
+                "name": "Your Starting Point",
+                "type": ""
+              }
+            ]
+          },
+          {
+            "id": 17675336,
+            "name": "Week 1: Values and Motivation",
+            "lessons": [
+              {
+                "id": 79228406,
+                "name": "What Motivates You to Help Animals?",
+                "type": ""
+              },
+              {
+                "id": 79228407,
+                "name": "Write Your Motivation Statement",
+                "type": ""
+              }
+            ]
+          },
+          {
+            "id": 17675337,
+            "name": "Week 2: Self-Reflection",
+            "lessons": [
+              {
+                "id": 79228408,
+                "name": "Your Strengths and Constraints",
+                "type": ""
+              },
+              {
+                "id": 79228409,
+                "name": "Build Your Personal Profile",
+                "type": ""
+              }
+            ]
+          },
+          {
+            "id": 17675338,
+            "name": "Week 3: Personal Leverage",
+            "lessons": [
+              {
+                "id": 79228410,
+                "name": "Different Ways to Contribute",
+                "type": ""
+              },
+              {
+                "id": 79228411,
+                "name": "Map Your Contribution",
+                "type": ""
+              }
+            ]
+          },
+          {
+            "id": 17675339,
+            "name": "Weeks 4\u20135: Career Exploration",
+            "lessons": [
+              {
+                "id": 79228412,
+                "name": "Compare Possible Career Paths",
+                "type": ""
+              },
+              {
+                "id": 79228413,
+                "name": "Run a Small Career Experiment",
+                "type": ""
+              }
+            ]
+          },
+          {
+            "id": 17675340,
+            "name": "Week 6: Action Planning",
+            "lessons": [
+              {
+                "id": 79228414,
+                "name": "Turn Your Ideas into a 30-Day Plan",
+                "type": ""
+              },
+              {
+                "id": 79228415,
+                "name": "Your Next Steps and Final Reflection",
+                "type": ""
+              }
+            ]
+          }
+        ],
+        "lesson_count": 12
+      }
+    ],
+    "enrollments": [
+      {
+        "demo_id": "AAA-DEMO-001",
+        "advocate_id": "recUwfcioI2FWLpFW",
+        "user_id": 260700368,
+        "course_id": 3558004,
+        "enrollment_id": 894392343,
+        "percentage_completed": 0.0,
+        "percent": 0.0,
+        "completed_at": null,
+        "started_at": null,
+        "updated_at": "2026-10-23T12:51:03.847Z",
+        "checked_at": "2026-10-23T17:06:14+00:00",
+        "source": "Thinkific enrollment API",
+        "lesson_count_available": false,
+        "native_quizzes": {
+          "state": "verified",
+          "checked_at": "2026-10-23T17:06:15+00:00",
+          "submissions": [],
+          "note": "GraphQL access verified. No stored quiz submissions for mapped fictional learners."
+        }
+      },
+      {
+        "demo_id": "AAA-DEMO-002",
+        "advocate_id": "recVQQminr3t4aZ5F",
+        "user_id": 260700371,
+        "course_id": 3558004,
+        "enrollment_id": 894392352,
+        "percentage_completed": 0.0,
+        "percent": 0.0,
+        "completed_at": null,
+        "started_at": null,
+        "updated_at": "2026-10-23T12:51:05.235Z",
+        "checked_at": "2026-10-23T17:06:15+00:00",
+        "source": "Thinkific enrollment API",
+        "lesson_count_available": false,
+        "native_quizzes": {
+          "state": "verified",
+          "checked_at": "2026-10-23T17:06:15+00:00",
+          "submissions": [],
+          "note": "GraphQL access verified. No stored quiz submissions for mapped fictional learners."
+        }
+      }
+    ],
+    "matched_people": 2,
+    "native_quizzes": {
+      "state": "verified",
+      "checked_at": "2026-10-23T17:06:15+00:00",
+      "submissions": [],
+      "note": "GraphQL access verified. No stored quiz submissions for mapped fictional learners."
+    },
+    "subdomain": "aaron-s-site-8d99",
+    "course_access": "Unpublished course: API enrollment works; learner access and activity test require publication approval."
+  },
+  "refreshed_at": "2026-10-23T17:06:23+00:00",
+  "table_id": "tblwbn6JRl9WeyBjJ",
+  "base_id": "appAAuxNKQ0KNGSil",
+  "local_only": true,
+  "assessment_connection": {
+    "state": "connected",
+    "last_success": "2026-10-23T17:06:23+00:00"
+  },
+  "events": [
+    {
+      "event_key": "f1122f32-23d8-40c3-8cad-e68e4e3c3adb",
+      "record_id": "recGeNBArbf48utG1",
+      "demo_id": "AAA-DEMO-006",
+      "at": "2026-10-23T12:22:40+00:00",
+      "state": "saved",
+      "fields": {
+        "Stage": "Learning",
+        "Next action": "Offer a human review of the fictional reflection and revisit the sample reading. Do not send email."
+      },
+      "before": {
+        "Data provenance": "Synthetic seed - not a Thinkific export",
+        "Completed lessons": 6,
+        "Demo score out of 2": 0,
+        "Q2": "B",
+        "Q1": "B",
+        "Reflection": "Fictional integration test: this learner will revisit the sample reading and discuss one small career experiment with a human adviser.",
+        "Next action": "Offer a chance to revisit the sample reading",
+        "Country": "Uganda",
+        "Stage": "Learning",
+        "Demo ID": "AAA-DEMO-006",
+        "Participant": "DEMO - Nuru Sample",
+        "Email": "nuru@example.test",
+        "Total lessons": 12
+      },
+      "saved_at": "2026-10-23T12:22:41+00:00",
+      "after": {
+        "Data provenance": "Synthetic seed - not a Thinkific export",
+        "Completed lessons": 6,
+        "Demo score out of 2": 0,
+        "Q2": "B",
+        "Q1": "B",
+        "Reflection": "Fictional integration test: this learner will revisit the sample reading and discuss one small career experiment with a human adviser.",
+        "Next action": "Offer a human review of the fictional reflection and revisit the sample reading. Do not send email.",
+        "Country": "Uganda",
+        "Stage": "Learning",
+        "Demo ID": "AAA-DEMO-006",
+        "Participant": "DEMO - Nuru Sample",
+        "Email": "nuru@example.test",
+        "Total lessons": 12
+      }
+    },
+    {
+      "event_key": "52da0fbd-7569-4105-bff2-3b01e60f69d2",
+      "record_id": "recGeNBArbf48utG1",
+      "demo_id": "AAA-DEMO-006",
+      "at": "2026-10-23T12:22:14+00:00",
+      "state": "saved",
+      "fields": {
+        "Q1": "B",
+        "Q2": "B",
+        "Reflection": "Fictional integration test: this learner will revisit the sample reading and discuss one small career experiment with a human adviser."
+      },
+      "before": {
+        "Data provenance": "Synthetic seed - not a Thinkific export",
+        "Completed lessons": 6,
+        "Demo score out of 2": 0,
+        "Q2": "B",
+        "Q1": "B",
+        "Reflection": "Fictional zero-score case. A quiz result does not determine access or programme eligibility.",
+        "Next action": "Offer a chance to revisit the sample reading",
+        "Country": "Uganda",
+        "Stage": "Learning",
+        "Demo ID": "AAA-DEMO-006",
+        "Participant": "DEMO - Nuru Sample",
+        "Email": "nuru@example.test",
+        "Total lessons": 12
+      },
+      "saved_at": "2026-10-23T12:22:14+00:00",
+      "after": {
+        "Data provenance": "Synthetic seed - not a Thinkific export",
+        "Completed lessons": 6,
+        "Demo score out of 2": 0,
+        "Q2": "B",
+        "Q1": "B",
+        "Reflection": "Fictional integration test: this learner will revisit the sample reading and discuss one small career experiment with a human adviser.",
+        "Next action": "Offer a chance to revisit the sample reading",
+        "Country": "Uganda",
+        "Stage": "Learning",
+        "Demo ID": "AAA-DEMO-006",
+        "Participant": "DEMO - Nuru Sample",
+        "Email": "nuru@example.test",
+        "Total lessons": 12
+      }
+    }
+  ],
+  "assessments": {
+    "attempts": [
+      {
+        "source_key": "airtable:recHVY8bhVp2Ownfv",
+        "payload_hash": "416857ce4c793b3e0e7d7d7f964e75d600079b5e04fc03d22c42482ed0852fb6",
+        "payload": {
+          "assessment_version": "starting-point-demo-v1",
+          "fields": {
+            "Demo ID": "AAA-DEMO-007",
+            "Email": "",
+            "Participant": "DEMO - Live form test",
+            "Q1": "A",
+            "Q2": "B",
+            "Reflection": "Fictional test submitted through the private Airtable form opened from the draft Thinkific course on 23 October 2026. Q1=A and Q2=B should score 1/2. No Thinkific API sync."
+          },
+          "form_id": "pagk5GhaNoKEmxpLv",
+          "rubric_version": "demo-AA-v1",
+          "source": "airtable-private-form-inbox",
+          "source_record_id": "recHVY8bhVp2Ownfv",
+          "submitted_at": "2026-10-23T12:07:52.000Z"
+        },
+        "advocate_id": null,
+        "match_state": "unmatched",
+        "reason": "No unique registered advocate for the claimed Demo ID.",
+        "score": 1,
+        "received_at": "2026-10-23T13:02:01+00:00",
+        "mirrored_id": "rec8V8XsrdFo1KwYC",
+        "mirror_error": null
+      },
+      {
+        "source_key": "airtable:recLS6sBhB4DosonM",
+        "payload_hash": "6bc2b60f28e0c02189a27f2a4229b22cba1f39ab7b9c953346eeb7d95f5e7efb",
+        "payload": {
+          "assessment_version": "starting-point-demo-v1",
+          "fields": {
+            "Demo ID": "AAA-DEMO-006",
+            "Email": "",
+            "Participant": "DEMO - Nuru Sample",
+            "Q1": "B",
+            "Q2": "B",
+            "Reflection": "Fictional native-form integration attempt one. Review a small career experiment with a human adviser."
+          },
+          "form_id": "pagk5GhaNoKEmxpLv",
+          "rubric_version": "demo-AA-v1",
+          "source": "airtable-private-form-inbox",
+          "source_record_id": "recLS6sBhB4DosonM",
+          "submitted_at": "2026-10-23T13:01:37.000Z"
+        },
+        "advocate_id": "recGeNBArbf48utG1",
+        "match_state": "matched-demo",
+        "reason": "Fixed fictional ID and exact name agree; submitter identity is not authenticated.",
+        "score": 0,
+        "received_at": "2026-10-23T13:02:01+00:00",
+        "mirrored_id": "recmRGHVnlRw8vlUd",
+        "mirror_error": null
+      },
+      {
+        "source_key": "airtable:recMEWxg6HxhxOqAS",
+        "payload_hash": "4a0b311a1bdcf7644d99f5c943187f02cafc95131e258459a8e10b04434732ca",
+        "payload": {
+          "assessment_version": "starting-point-demo-v1",
+          "fields": {
+            "Demo ID": "AAA-DEMO-006",
+            "Email": "",
+            "Participant": "DEMO - Nuru Sample",
+            "Q1": "A",
+            "Q2": "A",
+            "Reflection": "Fictional native-form retake two. I revised my answers after reviewing a small, time-limited career experiment."
+          },
+          "form_id": "pagk5GhaNoKEmxpLv",
+          "rubric_version": "demo-AA-v1",
+          "source": "airtable-private-form-inbox",
+          "source_record_id": "recMEWxg6HxhxOqAS",
+          "submitted_at": "2026-10-23T13:02:39.000Z"
+        },
+        "advocate_id": "recGeNBArbf48utG1",
+        "match_state": "matched-demo",
+        "reason": "Fixed fictional ID and exact name agree; submitter identity is not authenticated.",
+        "score": 2,
+        "received_at": "2026-10-23T13:06:07+00:00",
+        "mirrored_id": "recaPuWFl9k4mtf2F",
+        "mirror_error": null
+      },
+      {
+        "source_key": "airtable:recV7S0yEDrIdcOAT",
+        "payload_hash": "76587bcc16783b94d830ef0eea72bdb77ea927ca245a8c137fe899c86b8f7e36",
+        "payload": {
+          "assessment_version": "starting-point-demo-v1",
+          "fields": {
+            "Demo ID": "AAA-DEMO-999",
+            "Email": "",
+            "Participant": "DEMO - Unknown Sample",
+            "Q1": "A",
+            "Q2": "B",
+            "Reflection": "Fictional API-delivered inbox test; identity must remain in review."
+          },
+          "form_id": "pagk5GhaNoKEmxpLv",
+          "rubric_version": "demo-AA-v1",
+          "source": "airtable-private-form-inbox",
+          "source_record_id": "recV7S0yEDrIdcOAT",
+          "submitted_at": "2026-10-23T13:05:53.000Z"
+        },
+        "advocate_id": null,
+        "match_state": "unmatched",
+        "reason": "No unique registered advocate for the claimed Demo ID.",
+        "score": 1,
+        "received_at": "2026-10-23T13:06:07+00:00",
+        "mirrored_id": "recrmGXzcUEx6EJUl",
+        "mirror_error": null
+      },
+      {
+        "source_key": "airtable:recAatxZBAXQbOMP1",
+        "payload_hash": "f3f181529e08ca5349e832bf50d18776fa186fec7b4b7d2d056eb4c123904fab",
+        "payload": {
+          "assessment_version": "starting-point-demo-v1",
+          "fields": {
+            "Demo ID": "AAA-DEMO-006",
+            "Email": "",
+            "Participant": "DEMO - Amina Sample",
+            "Q1": "A",
+            "Q2": "B",
+            "Reflection": "Fictional API-delivered inbox test; identity must remain in review."
+          },
+          "form_id": "pagk5GhaNoKEmxpLv",
+          "rubric_version": "demo-AA-v1",
+          "source": "airtable-private-form-inbox",
+          "source_record_id": "recAatxZBAXQbOMP1",
+          "submitted_at": "2026-10-23T13:05:54.000Z"
+        },
+        "advocate_id": null,
+        "match_state": "conflict",
+        "reason": "Claimed Demo ID and participant name disagree.",
+        "score": 1,
+        "received_at": "2026-10-23T13:06:07+00:00",
+        "mirrored_id": "recMdHd53W1HxW3yF",
+        "mirror_error": null
+      },
+      {
+        "source_key": "airtable:recx0dOXsa2JY2csj",
+        "payload_hash": "8bc2406056ed53a614ec005b287c592272ff8b40a5d09348a317b67d26c48bd5",
+        "payload": {
+          "assessment_version": "starting-point-demo-v1",
+          "fields": {
+            "Demo ID": "AAA-DEMO-001",
+            "Email": "amina@example.test",
+            "Participant": "DEMO - Amina Sample",
+            "Q1": "A",
+            "Q2": "B",
+            "Reflection": "Fictional HTTP integration check for Amina. Repeat delivery must not create another attempt."
+          },
+          "form_id": "pagk5GhaNoKEmxpLv",
+          "rubric_version": "demo-AA-v1",
+          "source": "airtable-private-form-inbox",
+          "source_record_id": "recx0dOXsa2JY2csj",
+          "submitted_at": "2026-10-23T13:10:12.000Z"
+        },
+        "advocate_id": "recUwfcioI2FWLpFW",
+        "match_state": "matched-demo",
+        "reason": "Fixed fictional ID and exact name agree; submitter identity is not authenticated.",
+        "score": 1,
+        "received_at": "2026-10-23T13:10:17+00:00",
+        "mirrored_id": "recQR8yVIlrtmE1Mn",
+        "mirror_error": null
+      }
+    ],
+    "review": [
+      {
+        "source_key": "airtable:recHVY8bhVp2Ownfv",
+        "payload_hash": "416857ce4c793b3e0e7d7d7f964e75d600079b5e04fc03d22c42482ed0852fb6",
+        "payload": {
+          "assessment_version": "starting-point-demo-v1",
+          "fields": {
+            "Demo ID": "AAA-DEMO-007",
+            "Email": "",
+            "Participant": "DEMO - Live form test",
+            "Q1": "A",
+            "Q2": "B",
+            "Reflection": "Fictional test submitted through the private Airtable form opened from the draft Thinkific course on 23 October 2026. Q1=A and Q2=B should score 1/2. No Thinkific API sync."
+          },
+          "form_id": "pagk5GhaNoKEmxpLv",
+          "rubric_version": "demo-AA-v1",
+          "source": "airtable-private-form-inbox",
+          "source_record_id": "recHVY8bhVp2Ownfv",
+          "submitted_at": "2026-10-23T12:07:52.000Z"
+        },
+        "advocate_id": null,
+        "match_state": "unmatched",
+        "reason": "No unique registered advocate for the claimed Demo ID.",
+        "score": 1,
+        "received_at": "2026-10-23T13:02:01+00:00",
+        "mirrored_id": "rec8V8XsrdFo1KwYC",
+        "mirror_error": null
+      },
+      {
+        "source_key": "airtable:recV7S0yEDrIdcOAT",
+        "payload_hash": "76587bcc16783b94d830ef0eea72bdb77ea927ca245a8c137fe899c86b8f7e36",
+        "payload": {
+          "assessment_version": "starting-point-demo-v1",
+          "fields": {
+            "Demo ID": "AAA-DEMO-999",
+            "Email": "",
+            "Participant": "DEMO - Unknown Sample",
+            "Q1": "A",
+            "Q2": "B",
+            "Reflection": "Fictional API-delivered inbox test; identity must remain in review."
+          },
+          "form_id": "pagk5GhaNoKEmxpLv",
+          "rubric_version": "demo-AA-v1",
+          "source": "airtable-private-form-inbox",
+          "source_record_id": "recV7S0yEDrIdcOAT",
+          "submitted_at": "2026-10-23T13:05:53.000Z"
+        },
+        "advocate_id": null,
+        "match_state": "unmatched",
+        "reason": "No unique registered advocate for the claimed Demo ID.",
+        "score": 1,
+        "received_at": "2026-10-23T13:06:07+00:00",
+        "mirrored_id": "recrmGXzcUEx6EJUl",
+        "mirror_error": null
+      },
+      {
+        "source_key": "airtable:recAatxZBAXQbOMP1",
+        "payload_hash": "f3f181529e08ca5349e832bf50d18776fa186fec7b4b7d2d056eb4c123904fab",
+        "payload": {
+          "assessment_version": "starting-point-demo-v1",
+          "fields": {
+            "Demo ID": "AAA-DEMO-006",
+            "Email": "",
+            "Participant": "DEMO - Amina Sample",
+            "Q1": "A",
+            "Q2": "B",
+            "Reflection": "Fictional API-delivered inbox test; identity must remain in review."
+          },
+          "form_id": "pagk5GhaNoKEmxpLv",
+          "rubric_version": "demo-AA-v1",
+          "source": "airtable-private-form-inbox",
+          "source_record_id": "recAatxZBAXQbOMP1",
+          "submitted_at": "2026-10-23T13:05:54.000Z"
+        },
+        "advocate_id": null,
+        "match_state": "conflict",
+        "reason": "Claimed Demo ID and participant name disagree.",
+        "score": 1,
+        "received_at": "2026-10-23T13:06:07+00:00",
+        "mirrored_id": "recMdHd53W1HxW3yF",
+        "mirror_error": null
+      }
+    ],
+    "pending_mirrors": 0,
+    "identity_assurance": "Demo claim matching only; not learner authentication."
+  },
+  "hosted_demo": true
+}

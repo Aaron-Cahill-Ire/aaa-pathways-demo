@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "python3 scripts/build_hosted.py",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/dashboard.py": {
+      "maxDuration": 300,
+      "excludeFiles": "{.secrets/**,.artifacts/**,transcripts/**,document-review/**,claude-tools/**,pathways-v1/data/**,pathways-v1/test-results/**,handoff/*.zip}"
+    }
+  },
+  "rewrites": [
+    {"source": "/api/dashboard/refresh", "destination": "/api/dashboard?refresh=1"},
+    {"source": "/api/dashboard/records/:id", "destination": "/api/dashboard"},
+    {"source": "/api/dashboard/assessments/:id", "destination": "/api/dashboard"},
+    {"source": "/api/health", "destination": "/api/dashboard?health=1"}
+  ],
+  "headers": [
+    {"source": "/(.*)", "headers": [
+      {"key":"X-Content-Type-Options","value":"nosniff"},
+      {"key":"Content-Security-Policy","value":"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"},
+      {"key":"Referrer-Policy","value":"strict-origin-when-cross-origin"}
+    ]}
+  ]
+}

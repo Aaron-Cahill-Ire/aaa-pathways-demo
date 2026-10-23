@@ -1,0 +1,12 @@
+*
+!api/**
+!scripts/build_hosted.py
+!pathways-v1/*.py
+!pathways-v1/static/**
+!thinkific-demo/*.json
+!web-demo/data/snapshot.json
+!handoff/AAA Dashboard Contractor Handoff.docx
+!handoff/AAA Dashboard Decisions for AAA.docx
+!vercel.json
+!.python-version
+!.gitignore
