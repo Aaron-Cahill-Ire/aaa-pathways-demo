@@ -7,6 +7,7 @@ A populated staff dashboard with six fictional advocates, real Airtable source r
 ```sh
 git clone https://github.com/Aaron-Cahill-Ire/aaa-pathways-demo.git
 cd aaa-pathways-demo
+python3 scripts/bootstrap_demo.py
 PYTHONPATH=pathways-v1 python3 -m unittest discover -s pathways-v1/tests -v
 cd pathways-v1
 python3 server.py --port 8767
@@ -14,7 +15,7 @@ python3 server.py --port 8767
 
 Use Python 3.12 (standard library only). The dashboard code lives in `pathways-v1/static/`, local HTTP routes in `pathways-v1/server.py`, vendor adapters in `pathways-v1/integrations.py`, and assessment ingestion in `pathways-v1/pipeline.py`. The earlier course/learner preview is available locally at `/learner#/learn`.
 
-For a populated local dashboard without credentials, copy `web-demo/data/snapshot.json` to `pathways-v1/data/dashboard-snapshot.json` after creating that directory. This saved JSON includes the attempt history, but the local server derives attempts from SQLite. To restore those attempts and enable live reads and guarded writes, configure your own credentials as below and run `python3 integrations.py sync` from `pathways-v1/`.
+The bootstrap command installs the six saved profiles and their assessment history without credentials or network calls, preserving existing local files. To enable live reads and guarded writes, configure your own credentials as below and run `python3 integrations.py sync` from `pathways-v1/`.
 
 ## Hosted version
 

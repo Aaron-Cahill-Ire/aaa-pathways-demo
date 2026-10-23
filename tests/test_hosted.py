@@ -3,6 +3,7 @@ import importlib.util
 import json
 import os
 from pathlib import Path
+import tempfile
 import unittest
 from unittest.mock import patch
 
@@ -74,5 +75,20 @@ class HostedTests(unittest.TestCase):
         with patch.object(hosted.sources,'pull_airtable',return_value=(people,'tbl','app')),patch.object(hosted.sources,'pull_thinkific') as tf:
             with self.assertRaises(hosted.sources.IntegrationError):hosted.read_live()
         tf.assert_not_called()
+
+    def test_bootstrap_preserves_local_changes_and_restores_attempts(self):
+        spec=importlib.util.spec_from_file_location('bootstrap',ROOT/'scripts/bootstrap_demo.py')
+        module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        with tempfile.TemporaryDirectory() as temp:
+            module.bootstrap(temp)
+            data=Path(temp)/'pathways-v1/data'
+            saved=json.loads((data/'dashboard-snapshot.json').read_text())
+            self.assertEqual(len(saved['people']),6)
+            previous=hosted.pipeline.DB;hosted.pipeline.DB=data/'source-events.sqlite3'
+            try:self.assertEqual(len(hosted.pipeline.assessment_state()['attempts']),6)
+            finally:hosted.pipeline.DB=previous
+            (data/'dashboard-snapshot.json').write_text('{"local":"preserved"}')
+            module.bootstrap(temp)
+            self.assertEqual(json.loads((data/'dashboard-snapshot.json').read_text()),{'local':'preserved'})
 
 if __name__=='__main__':unittest.main()
